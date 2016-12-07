@@ -2,8 +2,11 @@ Package: flindR
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: c(person("Fridolin", "Linder", email = "fridolin.linder@gmail.com",
+                    role = c("aut", "cre")))
+Description: My convenience functions
+License: MIT
 LazyData: TRUE
+Imports:
+    ggplot2
+RoxygenNote: 5.0.1
