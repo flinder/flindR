@@ -9,4 +9,3 @@ plot_elements()
 \description{
 Get different plot elements
 }
-
