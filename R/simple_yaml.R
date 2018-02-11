@@ -29,6 +29,6 @@ read_simple_yaml = function(filename) {
 #' @export
 write_simple_yaml = function(filename, data) {
     sink(filename)
-    lapply(data$keys(), function(x) cat(x, ': ', data[[x]], '\n'))
+    lapply(data$keys(), function(x) cat(x, ': ', data[[x]], '\n', sep = ''))
     sink()
 }
