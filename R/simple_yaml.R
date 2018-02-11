@@ -32,6 +32,3 @@ write_simple_yaml = function(filename, data) {
     lapply(out$keys(), function(x) cat(x, ': ', data[[x]], '\n'))
     sink()
 }
-out = read_simple_yaml('test.yaml')
-out[['new']] = "3"
-write_simple_yaml('out_test.yaml', out)
