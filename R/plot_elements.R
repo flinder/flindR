@@ -11,7 +11,8 @@ plot_elements <- function() {
     theme(axis.text=element_text(size=14),
           axis.title=element_text(size=22),
           legend.text=element_text(size=14),
-          legend.title=element_text(size=22))
+          legend.title=element_text(size=22),
+          strip.text.x = element_text(size = 14))
     return(list('p_width' = p_width,
                 'colors' = color_palette,
                 'theme' = plot_theme))
