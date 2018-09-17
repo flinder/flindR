@@ -2,4 +2,7 @@
 
 export(plot_elements)
 export(rotate_labels)
+export(read_simple_yaml)
+export(write_simple_yaml)
 import(ggplot2)
+import(hashmap)
